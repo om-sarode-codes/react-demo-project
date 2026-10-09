@@ -1,0 +1,108 @@
+.about-us {
+  width: 100%;
+  min-height: 100vh;
+  padding: 90px 8%;
+  background-color: rgb(255, 246, 246);  
+  color: #111;
+}
+
+/* Main Heading */
+.about-us h1 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0 0 70px;
+}
+
+/* Content */
+.about-content {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Sub Headings */
+.about-content h2 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 0 0 25px;
+}
+
+/* Paragraphs */
+.about-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+    color: rgb(194, 194, 194);
+
+  margin: 0 0 25px;
+  text-align: left;
+}
+
+/* Strong Text */
+.about-content strong {
+  display: block;
+  max-width: 800px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.8;
+    color: rgb(194, 194, 194);
+
+  margin: 35px 0 60px;
+}
+
+/* --------------------
+   Tablet
+-------------------- */
+
+@media (max-width: 900px) {
+
+  .about-us {
+    padding: 70px 6%;
+  }
+
+  .about-us h1 {
+    font-size: 36px;
+    margin-bottom: 55px;
+  }
+
+  .about-content h2 {
+    font-size: 25px;
+  }
+}
+
+
+/* --------------------
+   Mobile
+-------------------- */
+
+@media (max-width: 600px) {
+
+  .about-us {
+    padding: 55px 20px;
+  }
+
+  .about-us h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 45px;
+  }
+
+  .about-content h2 {
+    font-size: 22px;
+    margin-bottom: 18px;
+  }
+
+  .about-content p,
+  .about-content strong {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .about-content strong {
+    margin: 30px 0 45px;
+  }
+}
